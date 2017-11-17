@@ -1,19 +1,56 @@
 html{
   background-color: lightgrey;
-  background-image: url(https://doc-0o-5c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/2k3pqorbf7j3oug96uksovhnqu5bf6gr/1510876800000/16214146634164386806/*/1Z1nVwV1lMzasxLcMQdaU0v_3FPZ7HADZ);
-  width: 25%;
+  background-image: url(leather-nunchuck.png);
+  width: 100%;
   height: auto;
+  background-position: fixed;
+
 }
+.topnav {
+  background:rgba(0,0,0,0.8);
+    overflow: hidden;
+    width: 75.01%;
+    margin-top: 1%;
+    border-radius: 10px;
+    margin: auto;
+
+
+  }
 h1{
-  color: green;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 1.5px #383838;
+  font-family: sans-serif;
+  font-size: 3rem;
 }
 
-.background{
-  ba
-}
 
 .card{
-  box-shadow: 0 10px 12px 0 rgba(0,0,0,0.2);
-  background-image: url(https://doc-0k-5c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/o7p4a9akaacsb1b2c6bqmc9rfblt8pn7/1510876800000/16214146634164386806/*/1_h21FefildYPakDFG3AePlK0N5kk1dND);
-  border: 3px darkgrey;
+  width: 66.66%;
+  margin: auto;
+  position:center;
+  background-color: white;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,1), 0 10px 30px 0 rgba(0,0,0,1);
+  border-radius: 10px
+}
+h2{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 2rem;
+
+}
+
+p{
+  color: grey;
+  text-align: center;
+font-family: sans-serif;
+font-size: 1.5rem;
+}
+.blur{
+  background: -webkit-filter: blur(5px);
+  background: filter: blur(5px);
+}
+
+a{
+  color: white;
 }
