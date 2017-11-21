@@ -1,3 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 8.33% auto 8.33%;
+  grid-template-rows:16.5% 16.5% 34% 33% ;
+  grid-template-areas:
+  "topnav topnav topnav"
+  ". . menu"
+  ". card ."
+  ". . .";
+
+
+}
+
 html{
   background-color: lightgrey;
   background-image: url(leather-nunchuck.png);
@@ -7,16 +25,12 @@ html{
 
 }
 .topnav {
-  background:rgba(0,0,0,0.8);
+  background:rgba(0,0,0,0.9);
     overflow: hidden;
-    width: 75.01%;
-    margin-top: 1%;
-    border-radius: 10px;
-    margin: auto;
-
-
-
+    background-size: 100% 100%;
+    grid-area: topnav;
   }
+
 h1{
   color: white;
   text-align: center;
@@ -27,8 +41,7 @@ h1{
 
 
 .card{
-  width: 66.66%;
-  margin: auto;
+  grid-area: card;
   position:center;
   background-color: white;
   box-shadow: 0 0 12px 0 rgba(0,0,0,1), 0 10px 30px 0 rgba(0,0,0,1);
@@ -47,22 +60,9 @@ p{
 font-family: sans-serif;
 font-size: 1.15rem;
 }
-.blur{
 
-}
+
 
 a{
   color: white;
-}
-
-#blur{
-  overflow: hidden;
-  width: 75.01%;
-  margin-top: 1%;
-  border-radius: 10px;
-  margin: auto;
-  background-color: white;
-
-  background: -webkit-filter: blur(5px);
-  background: filter: blur(5px);
 }
